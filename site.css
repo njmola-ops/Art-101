@@ -1,0 +1,13 @@
+body {
+    background: #ff1100;
+    padding: 50px;
+}
+h1,
+h2,
+h3 {
+    color: #e4e894;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img {
+    width: 200px;
+}
