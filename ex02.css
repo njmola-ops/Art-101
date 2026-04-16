@@ -15,3 +15,5 @@ html {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-se
 }
 #tree-small {width: 300px;}
 #tree-tiny {width: 100px;}
+.test-div {background-color: antiquewhite; margin: 30px; padding: 40px;}
+.my-flex{display: flex;}
