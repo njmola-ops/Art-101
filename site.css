@@ -4,9 +4,7 @@ body {
 }
 span {background-color: rgb(249, 183, 126);}
 /* select all html tags that have a class highlight_01 */
-.highlight_01 {background-color: rgb(112, 244, 249);}
-.highlight_02 {background-color: rgb(228, 252, 121);}
-.highlight_03 {background-color: rgb(121, 252, 130);}
+
 h1,
 h2,
 h3 {
@@ -16,3 +14,4 @@ h3 {
 img {
     width: 200px;
 }
+p {background-color: rgb(254, 116, 11); margin: 10px; padding: 5px;}
