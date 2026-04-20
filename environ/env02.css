@@ -1,0 +1,32 @@
+body {
+    
+  p{color:rgb(182, 250, 255); font-size: large; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+   text-align: center;
+  background-image: url("https://64.media.tumblr.com/6720afe4b23fff20fb0a55a8733db945/147bfebdf112f180-c6/s400x600/b6f51cddbdd98ddab9e322b88807158dac343608.gifv");
+}
+#planets {
+    width: 800px; margin-top: 100px;
+}
+#sun {
+    width: 300px; margin-top: 100px;
+}
+
+#ships {
+      padding: 50px;
+}
+h1{color: rgb(93, 0, 255); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.rocks {
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/004/527/328/large/natiq-aghayev-001.jpg?1484319101");
+    padding: 20px;
+    
+}
+
+.shipz {
+    background-image: url(https://media.tenor.com/UMr2aYv-rIMAAAAM/portal.gif);
+    padding: 20px;
+    border-radius: 12px;
+}
+audio {color: rgb(122, 130, 173);
+}

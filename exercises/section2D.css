@@ -1,0 +1,14 @@
+body {
+    background: #a5f9ef;
+    padding: 50px;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+h1,
+h2,
+h3 {
+    color: #0800ff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

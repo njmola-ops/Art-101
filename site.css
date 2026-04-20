@@ -1,18 +1,91 @@
 body {
-    background: #ff1100;
-    padding: 50px;
+   
+ background-image: url("https://i.pinimg.com/originals/ed/83/22/ed8322dd908191b1e26f0b51f73324a9.gif");
 }
-span {background-color: rgb(249, 183, 126);}
+
+span {background-color: rgb(152, 93, 41);}
 /* select all html tags that have a class highlight_01 */
-.highlight_01 {background-color: rgb(112, 244, 249);}
-.highlight_02 {background-color: rgb(228, 252, 121);}
-.highlight_03 {background-color: rgb(121, 252, 130);}
-h1,
-h2,
+@font-face {
+  font-family: myFont; /* set name */
+  src: url(PressStart2P-Regular.ttf); /* url of the font */
+}
+
+
+
+h1 {
+    color: #ff0000;font-family: myFont; font-size: x-large;
+   
+}
+
+h2 {
+    color: #a00000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 h3 {
-    color: #e4e894;
+    color: #883200;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 img {
     width: 200px;
+}
+p {background-color: rgb(248, 105, 73); margin: 10px; padding: 5px;}
+#page {
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+    background: rgb(0, 0, 0);
+    padding: 30px;
+}
+
+.top-section {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin: 0 0 25px 0;
+}
+#introduction {
+    background: #fbebb1;
+    padding: 20px;
+    border-left: 6px solid #7d0000;
+    flex: 2;
+}
+
+#introduction h2 {
+    font-style: italic;
+    margin-top: 0;
+}
+
+#introduction p {
+    font-size: 120%;
+    line-height: 1.5;
+}
+.profile {
+    text-align: center;
+    flex: 1;
+}
+
+.profile img {
+    width: 220px;
+    border-radius: 12px;
+}
+
+.profile p {
+    font-size: 90%;
+}
+.navigation {
+    background: #d1ab5f;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.navigation h2 {
+    margin-top: 0;
+}
+
+.navigation li {
+    margin-bottom: 8px;
+}
+
+.navigation a {
+    color: #003742;
+    font-weight: bold;
 }
