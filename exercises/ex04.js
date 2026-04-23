@@ -5,7 +5,7 @@ $("#needy-button").click( function(){
     
     
 
-    $("#needy-button").html("You clicked me " + count + " and your favourite color today is: " + colors[count] );
+    $("#needy-button").html("You clicked me " + count + " times and your favourite color today is: " + colors[count] );
 
     $("#needy-button").css( "background-color", colors[count]);  
 
