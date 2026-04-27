@@ -17,17 +17,7 @@ body {
 h1{color: rgb(93, 0, 255); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 border: 2px; border-color: aqua; border-style:dotted;
 }
-#sunBtn {
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  
-}
-#sunBtn img {
-  width: 300px;
-  height: 300px;
-}
+
 .shipz {
   display: flex;
   justify-content: space-evenly; 
@@ -44,19 +34,29 @@ border: 2px; border-color: aqua; border-style:dotted;
     padding: 20px;
     
 }
-h2 {color: rgb(148, 255, 248);
+h2 {color: rgb(0, 0, 0);
      display: inline-block;
-  border: 2px solid rgb(34, 161, 186);
+  border: 2px solid rgb(6, 83, 99);
   padding: 10px;
   margin-top: 70px;
 
+
 }
-.scan-text {
+.scan-text1 {
+  color: #ff00c3;
+  text-shadow: 0 0 5px #ff0000;
+  font-size: x-large;
+}
+.scan-text2 {
   color: #ff0000;
   text-shadow: 0 0 5px #ff0000;
+  font-size: x-large;
 }
-#lifebutton {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size:l;font-weight: 500; border: 10px; border-color: aqua;
-border-style:outset;
+#lifebutton {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size:l;font-weight: 500; border: 10px; border-color: rgb(2, 141, 141);
+border-style:outset;background-color: rgb(5, 181, 181);
+}
+#rockbutton {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size:x-large;font-weight: 500; border: 10px; border-color: rgb(231, 100, 198);
+border-style:outset; background-color: rgb(255, 178, 245);
 }
 #greenb {background-color: rgb(24, 166, 255); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-size:large
