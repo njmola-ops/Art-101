@@ -1,7 +1,8 @@
 let count = 0;
 let colors = ["Orchid", "Coral", "HotPink", "Plum"]; 
 let colorCounter=0;
-let mood="neutral"
+let mood="neutral";
+
 $("#needy-button").click(function () { 
  
 count = count + 1;
@@ -29,13 +30,10 @@ colorCount=count-1;
       $("#needy-button").after(" all other colors ");
     }
 
-   if (count < 5) {
-    mood = "fresh and happy";
-} if (count >= 5 && count < 10) {
-    mood = "keep pushing";
-} else if (count > 12) {
-    mood = "strange";
-} else {
+     if (count < 5) {mood = "fresh and happy";}
+if (count >= 5 && count < 10) {  mood = "keep pushing";}
+else if (count > 12) {mood = "strange";}
+ else {
     mood = "so tired";
 }
 
