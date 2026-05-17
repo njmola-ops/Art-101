@@ -21,14 +21,14 @@ $(document).ready(function () {
   // ROCK BUTTON
   $("#rockbutton").click(function () {
     rockCount++;
-    $(this).html(`Scanned for astroids ${rockCount} times`);
+    $(this).html(`Scanned for asteroids ${rockCount} times`);
 
-    let astroids = rockCount + 3;
+    let asteroids = rockCount + 3;
     let index = rockCount % duoEntity.mood.length;
     let currentMood = duoEntity.mood[index];
 
     $("#output").html(`
-      <p class="scan-text2">${astroids} astroids have been identified.</p>
+      <p class="scan-text2">${asteroids} asteroids have been identified.</p>
       <p class="scan-text2">Collision risk is ${currentMood}.</p>
     `);
   });
@@ -264,10 +264,4 @@ function resetShips() {
 
 $("#resetShipsBtn").on("click", function () {
   resetShips();
-});
-$(this).animate({
-  left: "",
-  top: ""
-}, 300, function () {
-  $(this).css({ position: "", margin: "" });
 });
